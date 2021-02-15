@@ -2,6 +2,12 @@
     font-family: "Press Start 2P", cursive;
 }
 
+h1{
+    font-size: 40px;
+    margin-top: 50px;
+    text-align: center;
+}
+
 #container{
     border: 2px solid blue;
     display: flex;
@@ -17,9 +23,9 @@
     justify-content: center;
     margin: 15px;
     
-    transition: top 2s left 2s;
+    transition: transform 2s;
 }
 
-.pokemon: hover{
-
+.pokemon:hover{
+    transform: rotate(1080deg) translate(-10px, -30px);
 }
