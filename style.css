@@ -23,9 +23,10 @@ h1{
     justify-content: center;
     margin: 15px;
     
-    transition: transform 2s;
+    
 }
 
 .pokemon:hover{
-    transform: rotate(1080deg) translate(-10px, -30px);
+    transition: transform 1s;
+    transform:  rotate(720deg);
 }
