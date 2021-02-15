@@ -1,5 +1,6 @@
 * {
     font-family: "Press Start 2P", cursive;
+    background-color: beige;
 }
 
 h1{
@@ -9,7 +10,6 @@ h1{
 }
 
 #container{
-    border: 2px solid blue;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +17,6 @@ h1{
 }
 
 .pokemon{
-    border: 2px solid red;
     width: 250px;
     display: flex;
     justify-content: center;
@@ -28,5 +27,5 @@ h1{
 
 .pokemon:hover{
     transition: transform 1s;
-    transform:  rotate(720deg);
+    transform:  rotate(360deg);
 }
