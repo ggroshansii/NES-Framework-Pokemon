@@ -1,0 +1,25 @@
+* {
+    font-family: "Press Start 2P", cursive;
+}
+
+#container{
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.pokemon{
+    border: 2px solid red;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    
+    transition: top 2s left 2s;
+}
+
+.pokemon: hover{
+
+}
